@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@amcdnl/threejs-meshline": "^1.0.0",
     "@react-three/fiber": "^8.13.0",
     "@types/three": "^0.152.1",
     "canvas-sketch-util": "^1.10.0",
@@ -16,6 +17,7 @@
     "eslint-config-next": "13.4.4",
     "next": "13.4.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-scripts": "4.0.0"
   }
 }

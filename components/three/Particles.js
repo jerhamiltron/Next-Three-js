@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import { useFrame } from '@react-three/fiber';
 import Random from 'canvas-sketch-util/random';
 
-const Particles = ({ count }) => {
+const Particles = ({ count, colors }) => {
   const mesh = useRef();
   const light = useRef();
 
@@ -12,8 +12,8 @@ const Particles = ({ count }) => {
 
     for (let i = 0; i < count; i++) {
       const time = Random.range(0, 100);
-      const factor = Random.range(20, 120);
-      const speed = Random.range(0.01, 0.015) / 2;
+      const factor = Random.range(1, 2);
+      const speed = Random.range(0.02, 0.03);
       const x = Random.range(-50, 50);
       const y = Random.range(-50, 50);
       const z = Random.range(-50, 50);
