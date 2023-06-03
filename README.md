@@ -1,3 +1,9 @@
+Next JS and Three JS working together.
+Review code to see how to get Three JS to run with NEXT application.
+
+![Gif Image](https://github.com/jerhamiltron/Next-Three-js/assets/97413085/53dd501a-37ca-4e78-977a-8e592ef54497)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
